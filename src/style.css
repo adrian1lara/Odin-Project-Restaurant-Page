@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+.hello {
+    color: red;
+}
+
+#home {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+/* Aplica estilos cuando el mouse está sobre el enlace */
+.nav a:hover {
+    border-color: white;
+}
+
+#content {
+    text-align: center;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #fff;
+}
+
+.menu h1 {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.menu img {
+    max-width: 50%;
+    margin: 10px;
+    cursor: pointer;
+  
+}
